@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Whole login box */
+#parent {
+    width: 400px;
+    height: 600px; 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 0px 6px rgb(170, 170, 170);
+    border-radius : 4px;
+    padding: 10px 0px;
+}
+/* Whole Login box */
+
+/* Fiverr logo */
+#logo img { /* Fiverr logo */
+    height: 80px;
+    display: block;
+    margin: 0 auto; 
+    zoom: 70%;
+}
+/* Fiverr Logo */
+
+#container { /* container after logo */
+    height: 520px;
+    margin-top: 30px;
+}
+/* Social login */
+#social .individual-social {
+    width: 350px;
+    margin: 20px auto;
+    padding: 12px 10px;
+    border-radius: 4px;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    cursor: pointer;
+    zoom: 90%; 
+} 
+#social #facebook {
+    background-color: #4267B2;
+}
+#social #google {
+    background-color: #DB4437;
+}
+#social #apple {
+    border: 1px solid rgb(207, 207, 207);
+}
+#social .individual-social:hover { 
+    box-shadow: 0px 0px 4px rgb(196, 196, 196);
+} 
+#social .individual-social #social-logo img{
+    width: 22px; height: 22px; 
+    display: block; 
+    margin: 0px auto;
+} 
+#social .individual-social #text{ 
+    margin-left: -20px;
+}
+#social .individual-social #text p{
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 18px;
+    color: rgb(77, 77, 77);
+    letter-spacing: 1px;
+}
+#social #facebook #text p{
+    color : white;
+}
+#social #google #text p{
+    color : white;
+}
+
+/* Social Login */
+
+#container #or {
+    margin-top: 40px; text-align: center; font-family: sans-serif; letter-spacing: 1px; font-weight: bold; font-size: 12px;
+}
+
+/* Form */
+#form-container {
+    margin-top: 40px;
+}
+#form-container form .individual-input {
+    width: 350px;
+    margin: 20px auto;
+    padding: 12px 10px;
+    border-radius: 4px; 
+    display: block;
+    border: 1px solid rgb(172, 172, 172);
+    outline: none;
+    font-size: 18px;
+    zoom: 90%;
+}
+.pass {
+    width: 350px;
+    margin: 20px auto;
+    border-radius: 4px; 
+    border: 1px solid rgb(172, 172, 172);
+    outline: none;
+    font-size: 18px;
+    zoom: 90%; 
+    display: grid;
+    grid-template-columns: 6fr 1fr;
+}
+.pass .pass-input {
+    width: 100%;
+    height: 100%;
+    padding: 12px 10px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+}
+.pass .eye-container {
+    height: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.pass .eye-container .eye {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+#form-container form #submit-btn {
+    cursor: pointer;
+    background-color: #1dbf73;
+    color: white;
+}
+#form-container form #submit-btn:hover {
+    background-color: white;
+    color: #1dbf73;
+    border: 1px solid #1dbf73;
+    transition: 0.2s;
+}
+
+/* Line after form */
+#line {
+    margin-top: 44px;
+    background-color: rgb(225, 225, 225);
+    height: 1px;
+    border: none;
+}
+
+#signup {
+    width: 350px;
+    margin: 16px auto;
+    text-align: center;  
+    display: block;
+    font-family: sans-serif; 
+    letter-spacing: 1px; 
+    font-weight: bolder;
+    zoom: 80%;
+}
+#signup a {
+    text-decoration: none;
+    color: #1dbf73;
+}
