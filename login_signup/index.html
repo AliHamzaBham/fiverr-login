@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Login</title>
+
+</head>
+<body>
+    <div id="parent">
+        <div id="logo">
+            <img src="assets/logobgr.png" alt="logo" srcset="">
+        </div>
+        <div id="container">
+            <div id="social">
+                <div id="facebook" class="individual-social"> 
+                    <div id="social-logo">
+                        <img src="assets/fb.svg" alt="">
+                    </div>
+                    <div id="text">
+                        <p>Continue with Facebook</p>
+                    </div>
+                </div>
+                <div id="google" class="individual-social"> 
+                    <div id="social-logo">
+                        <img src="assets/google.svg" alt="">
+                    </div>
+                    <div id="text">
+                        <p>Continue with Google</p>
+                    </div>
+                </div>
+                <div id="apple" class="individual-social"> 
+                    <div id="social-logo">
+                        <img src="assets/apple.svg" alt="">
+                    </div>
+                    <div id="text">
+                        <p>Continue with Apple</p>
+                    </div>
+                </div>
+                <p id="or">OR</p>
+                <div id="form-container">
+                    <form action="login" method="get">
+                        <input class="individual-input" type="email" placeholder="E-mail / Username">
+                        <div class="pass">
+                            <input class="pass-input" type="password" placeholder="Password">
+                            <div class="eye-container">
+                                <img class="eye" src="assets/eye.svg" alt="">
+                            </div>
+                        </div>
+                        <button type="submit" class="individual-input" id="submit-btn">Continue</button>
+                    </form>
+                    <hr id="line">
+                    <p id="signup">Not a member? <a href="#">Signup</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
